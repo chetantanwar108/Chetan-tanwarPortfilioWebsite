@@ -71,6 +71,10 @@ hr {
         box-shadow: 16.91px 11.91px 8px #D5E1E3, -9.91px -9.91px 15px #FFFFFF;
 
     }
+    .child a{
+        display: flex;
+        justify-content: center;
+    }
     
     .child:first-child{
         background: #ffbe76;
@@ -148,6 +152,7 @@ li {
 /** navigation **/
 
 .navigation {
+    width: 100%;
     background-color: #111827;
     color: white;
     padding: 1rem;
@@ -210,6 +215,7 @@ li {
 /** footers **/
 
 .footer {
+    width: 100%;
     background-color: #111827;
     padding: 2rem 1rem;
     text-align: center;
